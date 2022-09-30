@@ -42,11 +42,17 @@
     color: #42391d;
     padding: 20px;
     /*background-color: #4b380d;*/
-    border: 10px ridge rgba(241, 221, 221, 0.829);
+    border: 5px solid rgba(241, 221, 221, 0.829);
 
    background-image: radial-gradient(white,rgb(3, 96, 139));
    
-    /*margin: 0;*/
+   border-radius: 40px;
+}
+
+.contacto input{
+    border-radius: 7px;
+    border-color: #702c0d;
+    
 }
 
 .now{
@@ -504,6 +510,8 @@ footer li span {
     margin: 16px;
     transition: 0.05s;
 }
+
+
 
 .card:hover{
     transform: scale(1.0);
